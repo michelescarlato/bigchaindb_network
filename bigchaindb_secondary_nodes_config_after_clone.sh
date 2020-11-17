@@ -1,0 +1,21 @@
+echo "Running sudo apt install -y mongodb"
+sudo apt install -y mongodb
+echo "waiting 15 seconds.."
+sleep 15
+
+echo "Running systemctl status mongodb"
+systemctl status mongodb
+echo "waiting 5 seconds.."
+sleep 5
+
+echo "Running bigchaindb-monit-config"
+bigchaindb-monit-config
+echo "waiting 5 seconds.."
+sleep 5
+
+echo "Before to run 'tendermint init', modify config.toml and rescue genesis.toml"
+
+#echo "Running tendermint init"
+#tendermint init
+#echo "waiting 5 seconds.."
+#sleep 5
