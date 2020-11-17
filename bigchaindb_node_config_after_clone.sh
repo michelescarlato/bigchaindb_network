@@ -1,5 +1,5 @@
 echo "Running sudo apt install -y mongodb"
-sudo apt install mongodb
+sudo apt install -y mongodb
 echo "waiting 15 seconds.."
 sleep 15
 
