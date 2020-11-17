@@ -6,10 +6,10 @@ echo "waiting 5 seconds.."
 sleep 5
 
 
-echo "Running sudo apt upgrade"
-sudo apt upgrade
-echo "waiting 5 seconds.."
-sleep5
+#echo "Running sudo apt upgrade"
+#sudo apt upgrade
+#echo "waiting 5 seconds.."
+#sleep5
 
 
 echo "Running sudo apt install python3-pip"
