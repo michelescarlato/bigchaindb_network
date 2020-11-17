@@ -6,8 +6,8 @@ echo "waiting 5 seconds.."
 sleep 5
 
 
-echo "Running sudo apt install python3-pip"
-sudo apt install python3-pip
+echo "Running sudo apt -y install python3-pip"
+sudo apt -y install python3-pip
 echo "waiting 5 seconds.."
 sleep 5
 
@@ -47,7 +47,7 @@ echo "waiting 5 seconds.."
 sleep 5
 
 echo "Running sudo apt install monit"
-sudo apt install monit
+sudo apt -y install monit
 echo "waiting 5 seconds.."
 sleep 5
 
