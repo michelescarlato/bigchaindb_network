@@ -6,6 +6,7 @@ echo "waiting 5 seconds.."
 sleep 5
 
 
+# BIGCHAINDB
 echo "Running sudo apt install -y python3-pip"
 sudo apt install -y python3-pip
 echo "waiting 5 seconds.."
@@ -18,18 +19,12 @@ echo "waiting 5 seconds.."
 sleep 5
 
 
-echo "Running bigchaindb configure"
-bigchaindb configure
-echo "waiting 5 seconds.."
-sleep 5
-
-
+# TENDERMINT
 
 echo "Running wget https://github.com/tendermint/tendermint/releases/download/v0.31.5/tendermint_v0.31.5_linux_amd64.zip"
 wget https://github.com/tendermint/tendermint/releases/download/v0.31.5/tendermint_v0.31.5_linux_amd64.zip
 echo "waiting 5 seconds.."
 sleep 5
-
 
 echo "Running unzip tendermint_v0.31.5_linux_amd64.zip"
 unzip tendermint_v0.31.5_linux_amd64.zip
@@ -46,12 +41,11 @@ sudo mv tendermint /usr/local/bin
 echo "waiting 5 seconds.."
 sleep 5
 
+
+# MONIT
+
 echo "Running sudo apt install -y monit"
 sudo apt install -y monit
 echo "waiting 5 seconds.."
 sleep 5
 
-echo "Running bigchaindb-monit-config"
-bigchaindb-monit-config
-echo "waiting 5 seconds.."
-sleep 5
