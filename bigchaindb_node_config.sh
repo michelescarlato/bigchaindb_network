@@ -13,11 +13,6 @@ echo "waiting 5 seconds.."
 sleep 5
 
 
-echo "Running sudo pip3 install bigchaindb==2.2.1"
-sudo pip3 install bigchaindb==2.2.1
-echo "waiting 5 seconds.."
-sleep 5
-
 
 # TENDERMINT
 
