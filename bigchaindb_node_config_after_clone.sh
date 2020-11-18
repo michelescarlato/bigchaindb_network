@@ -27,11 +27,6 @@ bigchaindb-monit-config
 echo "waiting 5 seconds.."
 sleep 5
 
-echo "Running bigchaindb-monit-config"
-bigchaindb-monit-config
-echo "waiting 5 seconds.."
-sleep 5
-
 #tendermint
 echo "Running tendermint init"
 tendermint init
