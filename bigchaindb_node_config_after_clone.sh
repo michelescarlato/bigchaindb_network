@@ -1,3 +1,14 @@
+
+echo "Running bigchaindb configure"
+bigchaindb configure
+echo "waiting 5 seconds.."
+sleep 5
+
+echo "Running bigchaindb-monit-config"
+bigchaindb-monit-config
+echo "waiting 5 seconds.."
+sleep 5
+
 echo "Running sudo apt install -y mongodb"
 sudo apt install -y mongodb
 echo "waiting 15 seconds.."
