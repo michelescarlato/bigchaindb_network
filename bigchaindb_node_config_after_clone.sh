@@ -21,7 +21,12 @@ systemctl status mongodb
 echo "waiting 5 seconds.."
 sleep 5
 
-#monit
+# MONIT
+echo "Running sudo apt install -y monit"
+sudo apt install -y monit
+echo "waiting 5 seconds.."
+sleep 5
+
 echo "Running bigchaindb-monit-config"
 bigchaindb-monit-config
 echo "waiting 5 seconds.."
