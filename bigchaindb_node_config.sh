@@ -37,10 +37,5 @@ echo "waiting 5 seconds.."
 sleep 5
 
 
-# MONIT
 
-echo "Running sudo apt install -y monit"
-sudo apt install -y monit
-echo "waiting 5 seconds.."
-sleep 5
 
