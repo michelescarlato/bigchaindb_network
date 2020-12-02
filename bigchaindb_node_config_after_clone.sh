@@ -37,3 +37,8 @@ echo "Running tendermint init"
 tendermint init
 echo "waiting 5 seconds.."
 sleep 5
+
+echo "Tendermint node id"
+tendermint show_node_id
+echo "waiting 5 seconds.."
+sleep 5
