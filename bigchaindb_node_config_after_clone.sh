@@ -42,3 +42,15 @@ echo "Tendermint node id"
 tendermint show_node_id
 echo "waiting 5 seconds.."
 sleep 5
+
+# Retrieve public IP Address
+echo "Public IP Address"
+ip route get 1 | awk '{print $(NF-2);exit}'
+
+#moniker name
+echo "Moniker name"
+hostname
+
+# Peersistent node id
+echo "Peersistent node id"
+echo $(tendermint show_node_id)"@"$(ip route get 1 | awk '{print $(NF-2);exit}')":26656,"
