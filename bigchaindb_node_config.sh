@@ -8,7 +8,7 @@ sleep 5
 
 # BIGCHAINDB
 echo "Running sudo apt install -y python3-pip"
-sudo apt install -y python3-pip
+sudo apt install -y python3-pip unzip
 echo "waiting 5 seconds.."
 sleep 5
 
