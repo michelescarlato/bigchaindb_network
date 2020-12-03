@@ -45,6 +45,7 @@ echo "waiting 5 seconds.."
 sleep 5
 
 echo "Running bigchaindb configure"
+cp bigchaindb_network/.bigchaindb .
 bigchaindb configure
 echo "waiting 5 seconds.."
 sleep 5
