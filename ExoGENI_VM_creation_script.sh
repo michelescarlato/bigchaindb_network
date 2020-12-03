@@ -44,11 +44,11 @@ sudo pip3 install bigchaindb==2.2.1
 echo "waiting 5 seconds.."
 sleep 5
 
-echo "Running bigchaindb configure"
+echo "Copying .bigchaindb config file"
 cp bigchaindb_network/.bigchaindb .
-bigchaindb configure
-echo "waiting 5 seconds.."
-sleep 5
+#bigchaindb configure
+#echo "waiting 5 seconds.."
+#sleep 5
 
 #mongodb
 echo "Running sudo apt install -y mongodb"
