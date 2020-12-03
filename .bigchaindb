@@ -35,8 +35,8 @@
         "password": null
     },
     "log": {
-        "file": "/root/bigchaindb.log",
-        "error_file": "/root/bigchaindb-errors.log",
+        "file": "/home/micheles/bigchaindb.log",
+        "error_file": "/home/micheles/bigchaindb-errors.log",
         "level_console": "info",
         "level_logfile": "info",
         "datefmt_console": "%Y-%m-%d %H:%M:%S",
